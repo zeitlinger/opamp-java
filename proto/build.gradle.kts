@@ -3,6 +3,7 @@ import com.google.protobuf.gradle.*
 plugins {
   id("otel.java-conventions")
   id("com.google.protobuf")
+  id("maven-publish")
 }
 
 val protobufVersion = "3.19.4"

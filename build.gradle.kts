@@ -15,7 +15,9 @@ dependencies {
   implementation(project(":proto"))
 }
 
-group = "io.opentelemetry"
+allprojects {
+  group = "io.opentelemetry.opamp"
+}
 
 tasks.jar {
   from(sourceSets.main.get().output)
